@@ -1,5 +1,5 @@
-function passwordCheck(){
-	preventdefault();
+function passwordCheck(event){
+	event.preventDefault();
 	var password = document.myForm.Password.value;
 	if(password != "12345678")
 	{
