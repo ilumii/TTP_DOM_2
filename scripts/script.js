@@ -36,6 +36,6 @@ function button_two() {
 
 function sphere(){
 	var sphere_radius = document.getElementById("radius_input").value;
-	let vol = 4 * Math.PI * sphere_radius * sphere_radius * sphere_radius / 3;
-	document.getElementById("volume_result").innerHTML = vol;
+    let vol = 4 * Math.PI * sphere_radius * sphere_radius * sphere_radius / 3;
+	document.getElementById("volume_result").innerHTML = vol.toFixed(2);
 }
