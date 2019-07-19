@@ -13,17 +13,17 @@
     </div>
 
     <div class ="container">
-        <form onsubmit="parse()">
+        <form name = "myForm" onsubmit="passwordCheck(event)">
             Username:<br>
             <input type="text" name="Username"><br>
             Password:<br>
-            <input type="text" name="Password"><br>
+            <input type="password" name="Password"><br>
             Email:<br>
             <input type="text" name="Email"><br>
             <input id="button" type="submit" value="Submit">
         </form>
-        <h1 id="alert"></h1>
+        <h1 id="message">Welcome to this wonderful website</h1>
     </div>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="passwordcheck.js"></script>
 </body>
 </html>
